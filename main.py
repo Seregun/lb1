@@ -8,7 +8,7 @@ def print_fibonacci_pyramid(rows):
     fib_sequence = fibonacci(rows)
     index = 0
     
-    for i in range(1, rows + 1):
+    for i in range(1, 11 + 1):
         # Печатаем пробелы для выравнивания
         print(" " * (rows - i), end='')
         for j in range(i):
